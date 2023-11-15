@@ -12,5 +12,6 @@ const nextConfig = {
 };
 
 // 1
+// 2
 
 module.exports = nextConfig
