@@ -13,9 +13,9 @@ export const Header = () => {
   const authenticated = session.status === 'authenticated';
   const navigation = [
     { href: '/', title: 'Home' },
-    { href: '/events-type', title: 'Events types', auth: true },
+    { href: '/code-editor', title: 'Side Builder', auth: true },
     { href: '/scheduled-events', title: 'Scheduled Events', auth: true  },
-    { href: '/integrations', title: 'Integrations', auth: true  },
+    { href: '/washee', title: 'Washee', auth: true  },
   ];
 
   return (
