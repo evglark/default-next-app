@@ -1,11 +1,7 @@
 import React from 'react';
 
-const ScheduledEventsPage = () => {
-  return (
-    <div>
-      3
-    </div>
-  );
-};
+import { SchedulePage } from '@/modules/Schedule';
+
+const ScheduledEventsPage = () => <SchedulePage />;
 
 export default ScheduledEventsPage;

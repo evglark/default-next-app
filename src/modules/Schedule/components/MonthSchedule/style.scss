@@ -1,0 +1,40 @@
+@import 'bootstrap/scss/functions';
+
+.month-schedule {
+  .month-schedule-layout {
+    min-height: 100vh;
+    font-size: calc(10px + 2vmin);
+
+    .month {
+      display: grid;
+      gap: 1rem;
+
+      grid-template-columns: repeat(7, 1fr);
+      grid-row: inherit;
+
+      .day {
+        padding: 8px;
+      }
+    }
+  }
+}
+
+.month-schedule {
+  .month-schedule-layout {
+    .month {
+      color: var(--bs-gray-900);
+
+      .weekend {
+        color: var(--bs-gray-500);
+      }
+
+      .today {
+        color: var(--bs-danger);
+      }
+
+      .anotherMonth {
+        color: var(--bs-gray-300);
+      }
+    }
+  }
+}

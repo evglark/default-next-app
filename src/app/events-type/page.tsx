@@ -1,11 +1,6 @@
 import React from 'react';
+import { CodeEditorPage } from '@/modules/CodeEditor';
 
-const EventsTypePage = () => {
-  return (
-    <div>
-      2
-    </div>
-  );
-};
+const EventsTypePage = () => <CodeEditorPage />;
 
 export default EventsTypePage;
